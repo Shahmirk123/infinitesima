@@ -1,0 +1,15 @@
+﻿<Window x:Class="infinitesima.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:infinitesima"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="328" Width="699">
+    <Grid Margin="0,0,135,29">
+        <Button Content="GENERATE" HorizontalAlignment="Left" Margin="199,168,0,0" VerticalAlignment="Top" Height="70" Width="282" Click="Button_Click"/>
+        <TextBlock x:Name="ResultText" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="138,0,0,0" TextWrapping="Wrap" Width="504" Height="59"><Run Language="en-gb" Text="CLICK GENERATE TO GET 5 RANDOM NUMBERS AND A BONUS NUMBER"/></TextBlock>
+
+
+    </Grid>
+</Window>
